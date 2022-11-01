@@ -7,8 +7,12 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
+        '160': '40rem',
         '11.5': '2.875rem',
         '12/10': '120%'
+      },
+      maxWidth: {
+        '160': '40rem',
       },
       backgroundImage: {
         'noise': "url('https://cinnamon.agency/images/noise.png')"
@@ -18,7 +22,12 @@ module.exports = {
         'white': 'rgb(255 255 255) 0px 0px 0px 155px inset'
       },
       colors: {
-        'primary': 'rgb(81, 53, 255)'
+        'primary': 'rgb(81, 53, 255)',
+        'light': 'rgb(207, 207, 207)'
+      },
+      fontSize: {
+        '20': '5rem',
+        '22': '5.5rem'
       }
     },
   },

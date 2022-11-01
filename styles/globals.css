@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 * {
-  cursor: url('https://cinnamon.agency/images/halloween/mouse.svg'), auto;
   font-family: 'Montserrat', sans-serif;
 }
 .btn:hover .btn__shadow{
