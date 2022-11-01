@@ -22,6 +22,10 @@
   background-color: #FFCB47;
 }
 
+.case-study__img-container:hover .case-study__img{
+  transform: scale(1.05);
+}
+
 @layer components{
   .content{
     @apply max-w-7xl w-11/12 relative mx-auto md:w-5/6

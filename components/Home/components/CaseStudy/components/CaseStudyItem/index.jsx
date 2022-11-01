@@ -2,9 +2,9 @@ import React from 'react'
 
 function CaseStudyItem({bg, imgUrl, tags, title, text}) {
   return (
-    <div className='flex flex-col gap-8'>
-        <div className={`w-full bg-${bg} flex items-center justify-center`}>
-            <img src={imgUrl} alt="" className='max-w-full' />
+    <div className='flex flex-col gap-8 case-study'>
+        <div className={`w-full overflow-hidden bg-${bg} flex items-center justify-center case-study__img-container cursor-pointer`}>
+            <img src={imgUrl} alt="" className='max-w-full case-study__img transition-transform duration-500' />
         </div>
         <div className="flex gap-8">
             {
