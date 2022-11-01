@@ -12,6 +12,15 @@
   --tw-scale-y: 0;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.bg-purple{
+  background-color: #50227D;
+}
+.bg-green{
+  background-color: #91F1C3;
+}
+.bg-choco{
+  background-color: #FFCB47;
+}
 
 @layer components{
   .content{

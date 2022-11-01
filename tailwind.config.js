@@ -23,11 +23,17 @@ module.exports = {
       },
       colors: {
         'primary': 'rgb(81, 53, 255)',
-        'light': 'rgb(207, 207, 207)'
+        'light': 'rgb(207, 207, 207)',
+        'purple': '#50227D',
+        'green': '#91F1C3'
       },
       fontSize: {
         '20': '5rem',
-        '22': '5.5rem'
+        '22': '5.5rem',
+        '4.5xl': '2.5rem'
+      },
+      lineHeight: {
+        '14': '3.5rem'
       }
     },
   },
