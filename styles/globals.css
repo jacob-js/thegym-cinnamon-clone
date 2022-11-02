@@ -28,6 +28,6 @@
 
 @layer components{
   .content{
-    @apply max-w-7xl w-11/12 relative mx-auto md:w-5/6
+    @apply max-w-7xl w-11/12 mx-auto md:w-5/6
   }
 }

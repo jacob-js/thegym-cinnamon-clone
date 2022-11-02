@@ -1,4 +1,5 @@
 import React from 'react'
+import About from './components/About'
 import AgileTeam from './components/AgileTeam'
 import CaseStudy from './components/CaseStudy'
 import Hero from './components/Hero'
@@ -13,6 +14,7 @@ function Home() {
         <Services />
         <AgileTeam />
         <Testimonial />
+        <About />
     </div>
   )
 }
