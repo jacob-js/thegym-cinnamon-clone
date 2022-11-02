@@ -27,7 +27,7 @@ function Navbar() {
           <div className={
             `w-11.5 h-11.5 rounded-full border-2 flex justify-center items-center cursor-pointer transition-all hover:border-primary hover:bg-primary hover:text-white ${sticked ? 'border-primary text-primary': 'border-white text-white'}`
           }>
-            <i class="fa-sharp fa-solid fa-play text-lg "></i>
+            <i className="fa-sharp fa-solid fa-play text-lg "></i>
           </div>
           <Button>Contact us</Button>
         </div>
