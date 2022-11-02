@@ -5,6 +5,7 @@ import CaseStudy from './components/CaseStudy'
 import Hero from './components/Hero'
 import Jobs from './components/Jobs'
 import Learning from './components/Learning'
+import Offices from './components/Offices'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
 
@@ -19,6 +20,7 @@ function Home() {
         <About />
         <Learning />
         <Jobs />
+        <Offices />
     </div>
   )
 }
