@@ -3,6 +3,7 @@ import About from './components/About'
 import AgileTeam from './components/AgileTeam'
 import CaseStudy from './components/CaseStudy'
 import Hero from './components/Hero'
+import Jobs from './components/Jobs'
 import Learning from './components/Learning'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
@@ -17,6 +18,7 @@ function Home() {
         <Testimonial />
         <About />
         <Learning />
+        <Jobs />
     </div>
   )
 }

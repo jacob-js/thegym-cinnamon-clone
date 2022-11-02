@@ -29,7 +29,8 @@ module.exports = {
         'light': 'rgb(207, 207, 207)',
         'purple': '#50227D',
         'green': '#91F1C3',
-        'lighter': '#F6F6F6'
+        'lighter': '#F6F6F6',
+        'thin-light': '#3F3F3F'
       },
       fontSize: {
         '20': '5rem',
