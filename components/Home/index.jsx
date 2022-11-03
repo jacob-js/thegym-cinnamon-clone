@@ -2,6 +2,7 @@ import React from 'react'
 import About from './components/About'
 import AgileTeam from './components/AgileTeam'
 import Articles from './components/Articles'
+import CallToAct from './components/CallToAct'
 import CaseStudy from './components/CaseStudy'
 import Hero from './components/Hero'
 import Jobs from './components/Jobs'
@@ -23,6 +24,7 @@ function Home() {
         <Jobs />
         <Offices />
         <Articles />
+        <CallToAct />
     </div>
   )
 }
