@@ -7,7 +7,7 @@ function ServiceItem({iconUrl, title, text}) {
             <img src={iconUrl} alt="" />
         </div>
         <div className="text-white font-bold text-2xl">{title}</div>
-        <div className="text-light">{text}</div>
+        <div className="text-light w-3/4 sm:w-full">{text}</div>
     </div>
   )
 }

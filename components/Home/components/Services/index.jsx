@@ -28,9 +28,9 @@ function Services() {
 
   return (
     <div className='py-40 bg-black bg-opacity-90 bg-noise'>
-        <div className="content grid grid-cols-12 gap-8">
-            <div className="text-white text-13.5 font-bold tracking-tight col-start-1 lg:col-end-5">Our Services</div>
-            <div className="lg:col-start-6 lg:col-end-13 grid grid-cols-2 gap-16 lg:gap-x-32 lg:gap-y-30">
+        <div className="content grid md:grid-cols-12 gap-8">
+            <div className="text-white text-4.5xl sm:text-13.5 font-bold tracking-tight sm:col-start-1 lg:col-end-5 md:col-end-13">Our Services</div>
+            <div className="lg:col-start-6 md:col-start-1 md:col-end-13 grid sm:grid-cols-2 gap-16 lg:gap-x-32 lg:gap-y-30">
                 {
                     data.map((service, index) =>(
                         <ServiceItem key={index} {...service} />

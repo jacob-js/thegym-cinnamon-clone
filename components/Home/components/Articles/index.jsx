@@ -32,8 +32,8 @@ function Articles() {
   return (
     <div className='bg-white py-40'>
         <div className="content flex flex-col gap-16">
-            <div className="text-13.5 font-bold max-w-md">Stay in the loop on tech topics</div>
-            <div className="grid grid-cols-3 gap-8">
+            <div className="text-4.5xl leading-14 lg:text-13.5 lg:leading-tight font-bold max-w-md text-gray-900">Stay in the loop<br /> on tech topics</div>
+            <div className="flex overflow-x-auto hidden-bar lg:grid grid-cols-3 gap-8 ">
                 {
                     data.map((item, index) =>(
                         <ArticleItem key={index} {...item} />

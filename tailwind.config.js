@@ -21,7 +21,7 @@ module.exports = {
         'noise': "url('https://cinnamon.agency/images/noise.png')"
       },
       boxShadow: {
-        'btn': 'rgb(81 53 255) 0px 0px 0px 155px inset',
+        'btn': 'rgb(81 53 255) 0px 0px 0px 300px inset',
         'white': 'rgb(255 255 255) 0px 0px 0px 155px inset'
       },
       colors: {
@@ -38,6 +38,7 @@ module.exports = {
         '22': '5.5rem',
         '13.5': '3.375rem',
         '4.5xl': '2.5rem',
+        '8': '2rem',
         '5': '1.25rem'
       },
       lineHeight: {

@@ -6,13 +6,13 @@ function Jobs() {
 
   return (
     <div className='bg-black bg-opacity-90 bg-noise py-40'>
-        <div className="content text-white grid grid-cols-12 items-center">
-            <div className="flex flex-col gap-8 col-start-1 col-end-6">
+        <div className="content text-white grid gap-14 lg:gap-0 lg:grid-cols-12 items-center">
+            <div className="flex flex-col gap-8 col-start-1 lg:col-end-6">
                 <div className="text-13.5 font-bold">We’re growing</div>
                 <div className="text-light">Jump on board with Cinnamon and get the privilege of working on challenging projects for leading global companies! Make the world a better, more connected place.</div>
                 <Button>See All Positions</Button>
             </div>
-            <div className="flex flex-col gap-8 col-start-8 col-end-13">
+            <div className="flex flex-col gap-4 lg:gap-8 lg:col-start-8 lg:col-end-13">
                 {
                     jobs.map((job, index) =>(
                         <div className="grid grid-cols-[auto,3rem] gap-8 border-b border-thin-light py-6" key={index}>

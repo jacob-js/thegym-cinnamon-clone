@@ -26,6 +26,10 @@
   transform: scale(1.05);
 }
 
+.hidden-bar::-webkit-scrollbar{
+  display: none;
+}
+
 @layer components{
   .content{
     @apply max-w-7xl w-11/12 mx-auto md:w-5/6
