@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './components/About'
 import AgileTeam from './components/AgileTeam'
+import Articles from './components/Articles'
 import CaseStudy from './components/CaseStudy'
 import Hero from './components/Hero'
 import Jobs from './components/Jobs'
@@ -21,6 +22,7 @@ function Home() {
         <Learning />
         <Jobs />
         <Offices />
+        <Articles />
     </div>
   )
 }

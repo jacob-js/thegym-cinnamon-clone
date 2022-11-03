@@ -30,17 +30,17 @@ function Offices() {
     }, [scrollValue]);
 
   return (
-    <div className='bg-white py-40'>
+    <div className='bg-white pt-40'>
         <div className="content flex flex-col gap-14 relative">
             <div className="text-13.5 font-bold">Our Offices</div>
-            <div className="absolute flex gap-8 transition-transform duration-300" ref={ref}>
+            <div className="absolute flex gap-8 transition-transform duration-300 top-32" ref={ref}>
                 {
                     data.map((item, index) =>(
                         <OfficeItem {...item} key={index} />
                     ))
                 }
             </div>
-            <div className="flex mt-[385px] gap-8">
+            <div className="flex mt-[550px] gap-8">
                 <i class="fa-solid fa-left-long text-3xl cursor-pointer text-gray-400" onClick={() =>setScrollValue(v => v+540)}></i>
                 <i class="fa-solid fa-right-long text-3xl cursor-pointer text-primary" onClick={() =>setScrollValue(v => v-540)}></i>
             </div>

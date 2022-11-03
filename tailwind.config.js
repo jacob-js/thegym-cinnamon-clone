@@ -30,7 +30,8 @@ module.exports = {
         'purple': '#50227D',
         'green': '#91F1C3',
         'lighter': '#F6F6F6',
-        'thin-light': '#3F3F3F'
+        'thin-light': '#3F3F3F',
+        'grey': '#525252'
       },
       fontSize: {
         '20': '5rem',
