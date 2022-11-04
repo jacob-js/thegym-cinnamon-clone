@@ -17,7 +17,7 @@ function About() {
                     ))
                 }
             </div>
-            <div className="lg:absolute right-0 max-w-[340px]">
+            <div className="lg:absolute right-0 max-w-85">
                 <img src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwho-we-are.db3b807b.png&w=640&q=75" alt="" />
             </div>
             <Button className='mt-4'>Read About Us</Button>

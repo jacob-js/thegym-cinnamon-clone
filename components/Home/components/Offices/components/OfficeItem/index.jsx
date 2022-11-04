@@ -2,7 +2,7 @@ import React from 'react'
 
 function OfficeItem({imgUrl, city, address}) {
   return (
-    <div className='lg:w-[540px] shrink-0 flex flex-col gap-8'>
+    <div className='lg:w-135 shrink-0 flex flex-col gap-8'>
         <img src={imgUrl} alt="" className='max-w-full' />
         <div className="flex gap-4">
             <i className="bi bi-geo-alt text-lg font-bold"></i>
