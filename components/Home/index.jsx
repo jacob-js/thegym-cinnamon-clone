@@ -1,0 +1,32 @@
+import React from 'react'
+import About from './components/About'
+import AgileTeam from './components/AgileTeam'
+import Articles from './components/Articles'
+import CallToAct from './components/CallToAct'
+import CaseStudy from './components/CaseStudy'
+import Hero from './components/Hero'
+import Jobs from './components/Jobs'
+import Learning from './components/Learning'
+import Offices from './components/Offices'
+import Services from './components/Services'
+import Testimonial from './components/Testimonial'
+
+function Home() {
+  return (
+    <div>
+        <Hero />
+        <CaseStudy />
+        <Services />
+        <AgileTeam />
+        <Testimonial />
+        <About />
+        <Learning />
+        <Jobs />
+        <Offices />
+        <Articles />
+        <CallToAct />
+    </div>
+  )
+}
+
+export default Home
